@@ -1,0 +1,130 @@
+body {
+    background-image: url(../images/background.jpg);
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif, Dotum;
+    font-size: 13px;
+    margin: 0;
+}
+
+#lolelf-nav,
+#lolelf-header,
+#lolelf-content,
+#lolelf-footer {
+    min-width: 1000px;
+    width: 100%；
+}
+
+#lolelf-nav {
+    height: 100px;
+    margin: auto;
+    width: 1050px;
+}
+
+#lolelf-nav-menu {
+    border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+#lolelf-feature-menu {
+    display: inline-block;
+    padding: 0;
+}
+
+#lolelf-feature-menu li {
+    list-style: none;
+    display: inline;
+    padding-right: 12px;
+}
+
+#lolelf-login-menu {
+    float: right;
+}
+
+#lolelf-login-menu li {
+    list-style: none;
+    display: inline;
+    padding-right: 12px;
+}
+
+#lolelf-header {
+    height: 150px;
+    margin: auto;
+    width: 1050px;
+}
+
+#lolelf-logo {
+    position: relative;
+    right: 102px;
+    width: 200px;
+}
+
+#lolelf-name {
+    position: relative;
+    right: 150px;
+    width: 100px;
+}
+
+#lolelf-mission {
+    position: relative;
+    bottom: 46px;
+    right: 40px;
+    width: 200px;
+}
+
+#lol-header-search {
+    height: 150px;
+    float: right;
+    width: 500px;
+}
+
+#search-box {
+    background-image: url(../images/search.png);
+    height: 53px;
+    position: relative;
+    top: 20px;
+    width: 490px;
+}
+
+#search-input {
+    border: 0;
+    font-size: 16px;
+    height: 18px;
+    margin: 6px;
+    padding: 13px 10px 7px;
+    width: 410px;
+}
+
+#lolelf-content {
+    height: 600px;
+    margin: auto;
+    width: 1050px;
+}
+
+.lolelf-content-item {
+    color: #999;
+    height: 200px;
+    margin: auto;
+    width: 1050px;
+}
+
+.lolelf-content-item-header {
+    background: url(../images/line.png) repeat-x 0 9px;
+    text-align: center;
+    width: 1050px;
+}
+
+.lolelf-content-item-header em {
+    background-color: #ececec;
+    padding: 0 10px;
+}
+
+#lolelf-footer {
+    background: url(../images/background_footer.png);
+    height: 200px;
+}
+
+#lolelf-footer-content {
+    color: #999;
+    margin: auto;
+    text-align: center;
+    width: 1050px;
+}
